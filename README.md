@@ -92,5 +92,5 @@ This repo benefits from [Tip](https://github.com/gaopengcuhk/Tip-Adapter) and [C
 
 
 ## Contact
-If you have any questions or suggestions, please feel free to contact us: .
+If you have any questions or suggestions, please feel free to contact us: tangyuwei@@tju.edu.cn and linzhenyi@tju.edu.cn.
 
