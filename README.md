@@ -1,7 +1,7 @@
 # AMU-Tuning: Effective Logit Bias for CLIP-based Few-shot Learning
 - Official PyTorch implementation and pre-trained models for paper **AMU-Tuning: Effective Logit Bias for CLIP-based Few-shot Learning**.  
 - AMU's version of MindSpore is available at [MindSpore-AMU](https://github.com/TJU-sjyj/MindSpore-AMU)  
-- The paper is accepted by ***CVPR 2024***.  
+- The paper is accepted by ***CVPR 2024***.  🌟
 
 ## Introduction
 This paper proposes a novel **AMU-Tuning** method to learn effective logit bias for CLIP-based few shot classification. Specifically, our AMU-Tuning predicts logit bias by exploiting the appropriate ***A***uxiliary features, which are fed into an efficient feature-initialized linear classifier with ***M***ulti-branch training. Finally, an ***U***ncertainty based fusion is developed to incorporate logit bias into CLIP for few-shot classification. The experiments are conducted on several widely used benchmarks, and the results show AMU-Tuning clearly outperforms its counterparts while achieving state-of-the-art performance of CLIP based few-shot learning without bells and whistles.  
@@ -90,7 +90,7 @@ The following table shows the results of AMU on the ImageNet1k dataset under the
 
 
 ## Acknowledgement
-This repo benefits from [Tip](https://github.com/gaopengcuhk/Tip-Adapter) and [CaFo](https://github.com/OpenGVLab/CaFo). Thanks for their works.
+This repo benefits from [Tip](https://github.com/gaopengcuhk/Tip-Adapter) and [CaFo](https://github.com/OpenGVLab/CaFo). Thanks for their works.❤️
 
 
 
