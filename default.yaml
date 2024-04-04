@@ -1,0 +1,14 @@
+root_path: "" #input your root path
+alpha: 0.5
+
+# ------ Basic Config ------
+dataset: 'ImageNet'
+shots: 16
+clip_backbone: 'RN50' # ['RN50', 'RN101', 'RN50x4', 'RN50x16', 'ViT-B/32', 'ViT-B/16']
+
+lr: 1.0e-3
+augment_epoch: 1
+batch_size: 8
+val_batch_size: 256
+num_classes: 1000
+train_epoch: 50
