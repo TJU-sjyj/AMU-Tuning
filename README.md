@@ -49,7 +49,7 @@ sh run.sh
 - `alpha` is used to control the effect of logit bias.  
 - `lambda_merge`  is a hyper-parameter in **Multi-branch Training**  
 
-More Arguments can be referenced in [parse_args.py]https://github.com/TJU-sjyj/AMU-Tuning/parse_args.py
+More Arguments can be referenced in [parse_args.py](https://github.com/TJU-sjyj/AMU-Tuning/parse_args.py)
 
 ### Training Example
 You can use this command to train a **AMU adapter** with ViT-B-16 as CLIP's image encoder by 16-shot setting for 50 epochs.  
