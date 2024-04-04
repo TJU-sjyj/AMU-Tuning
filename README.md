@@ -44,7 +44,7 @@ We provide `run.sh` with which you can complete the pre-training + fine-tuning e
 - `lr` learning rate for adapter training.  
 - `shots` number of samples per class used for training.  
 - `alpha` is used to control the effect of logit bias.  
-- `lambda_merge`  is a hyper-parameter in ** Multi-branch Training**  
+- `lambda_merge`  is a hyper-parameter in **Multi-branch Training**  
 
 More Arguments can be referenced in [parse_args.py]https://github.com/TJU-sjyj/AMU-Tuning/parse_args.py
 
