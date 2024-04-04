@@ -69,7 +69,13 @@ CUDA_VISIBLE_DEVICES=0 python train.py\
 ```
 
 ## Result
+The average results over the 11 datasets are displayed in the following figure:
+<div align="center">
+  <img width="50%" alt="iBOT framework" src="avg_result.png"/>
+</div>
 
+
+The following table shows the results of AMU on the ImageNet1k dataset under the settings of 1~16 shots.
 |Method           | Top1-Acc(%) | Checkpoint|
 | --------- | ------- | -------------------------- |
 | AMU-Tuning-MoCov3-ResNet50-16shot-lmageNet1k  | 70.02 |[Download]|
@@ -77,6 +83,8 @@ CUDA_VISIBLE_DEVICES=0 python train.py\
 | AMU-Tuning-MoCov3-ResNet50-4shot-lmageNet1k   | 65.92 |[Download]|
 | AMU-Tuning-MoCov3-ResNet50-2shot-lmageNet1k   | 64.25 |[Download]|
 | AMU-Tuning-MoCov3-ResNet50-1shot-lmageNet1k   | 62.60 |[Download]|
+
+
 
 ## Acknowledgement
 This repo benefits from [Tip](https://github.com/gaopengcuhk/Tip-Adapter) and [CaFo](https://github.com/OpenGVLab/CaFo). Thanks for their works.
