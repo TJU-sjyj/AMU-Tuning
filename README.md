@@ -1,6 +1,6 @@
 # AMU-Tuning: Effective Logit Bias for CLIP-based Few-shot Learning
 - Official PyTorch implementation and pre-trained models for paper **AMU-Tuning: Effective Logit Bias for CLIP-based Few-shot Learning**.  
-- AMU's version of MindSpore is available at [MindSpore-AMU](https://github.com/TJU-sjyj/MindSpore-AMU)  
+- AMU's version of MindSpore is available at [MindSpore-AMU](https://github.com/TJU-sjyj/MindSpore-AMU).
 - The paper is accepted by ***CVPR 2024***.  🌟
 
 ## Introduction
@@ -47,9 +47,9 @@ sh run.sh
 - `lr` learning rate for adapter training.  
 - `shots` number of samples per class used for training.  
 - `alpha` is used to control the effect of logit bias.  
-- `lambda_merge`  is a hyper-parameter in **Multi-branch Training**  
+- `lambda_merge`  is a hyper-parameter in **Multi-branch Training**.  
 
-More arguments can be referenced in [parse_args.py](https://github.com/TJU-sjyj/AMU-Tuning/parse_args.py)
+More arguments can be referenced in [parse_args.py](https://github.com/TJU-sjyj/AMU-Tuning/parse_args.py).
 
 ### Training Example
 You can use this command to train a **AMU adapter** with ViT-B-16 as CLIP's image encoder by 16-shot setting for 50 epochs.  
