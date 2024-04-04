@@ -52,7 +52,7 @@ sh run.sh
 More arguments can be referenced in [parse_args.py](https://github.com/TJU-sjyj/AMU-Tuning/parse_args.py).
 
 ### Training Example
-You can use this command to train a **AMU adapter** with ViT-B-16 as CLIP's image encoder by 16-shot setting for 50 epochs.  
+You can use this command to train a adapter with ViT-B-16 as CLIP's image encoder by 16-shot setting for 50 epochs.  
 
 ```bash
 CUDA_VISIBLE_DEVICES=0 python train.py\
@@ -90,7 +90,7 @@ The following table shows the results of AMU on the ImageNet1k dataset under the
 
 
 ## Acknowledgement
-This repo benefits from [Tip](https://github.com/gaopengcuhk/Tip-Adapter) and [CaFo](https://github.com/OpenGVLab/CaFo). Thanks for their works.❤️
+This repo benefits from [Tip](https://github.com/gaopengcuhk/Tip-Adapter) and [CaFo](https://github.com/OpenGVLab/CaFo). Thanks for their works.
 
 
 
