@@ -37,7 +37,10 @@ Our dataset setup is primarily based on Tip-Adapter. Please follow [DATASET.md](
 
 ### One-Line Command by Using `run.sh`
 
-We provide `run.sh` with which you can run AMU-Tuning in an one-line command.
+We provide `run.sh`  which you can run AMU-Tuning in an one-line command.
+```bash
+sh run.sh
+```
 
 ### Arguments
 - `clip_backbone` is the name of the backbone network of CLIP visual coders that will be used (e.g. RN50, RN101, ViT-B/16).  
