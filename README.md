@@ -81,11 +81,11 @@ The average results over the 11 datasets are displayed in the following figure:
 The following table shows the results of AMU on the ImageNet1k dataset under the settings of 1~16 shots.
 |Method           | Top1-Acc(%) | Checkpoint|
 | --------- | ------- | -------------------------- |
-| AMU-Tuning-MoCov3-ResNet50-16shot-lmageNet1k  | 70.02 |[Download]|
-| AMU-Tuning-MoCov3-ResNet50-8shot-lmageNet1k   | 68.25 |[Download]|
-| AMU-Tuning-MoCov3-ResNet50-4shot-lmageNet1k   | 65.92 |[Download]|
-| AMU-Tuning-MoCov3-ResNet50-2shot-lmageNet1k   | 64.25 |[Download]|
-| AMU-Tuning-MoCov3-ResNet50-1shot-lmageNet1k   | 62.60 |[Download]|
+| AMU-Tuning-MoCov3-ResNet50-16shot-lmageNet1k  | 70.02 |[Download](https://drive.google.com/file/d/1U8V8aho9ne5Diz0swK9m_-1cEElflnMg/view?usp=drive_link)|
+| AMU-Tuning-MoCov3-ResNet50-8shot-lmageNet1k   | 68.25 |[Download](https://drive.google.com/file/d/1QmF3EoaxIohMzQHj6P7fmvK73ab0lfBP/view?usp=drive_link)|
+| AMU-Tuning-MoCov3-ResNet50-4shot-lmageNet1k   | 65.92 |[Download](https://drive.google.com/file/d/1ad0-yVsN3JV_-7mbFlYq1mpM0XoviIUs/view?usp=drive_link)|
+| AMU-Tuning-MoCov3-ResNet50-2shot-lmageNet1k   | 64.25 |[Download](https://drive.google.com/file/d/15R9ohx9z2VsC0h7Z1gAeidWDy3bfHByu/view?usp=drive_link)|
+| AMU-Tuning-MoCov3-ResNet50-1shot-lmageNet1k   | 62.60 |[Download](https://drive.google.com/file/d/19fEVFa241C4VZ88k2d8uVEAvkAuITzfI/view?usp=drive_link)|
 
 
 
