@@ -67,8 +67,8 @@ CUDA_VISIBLE_DEVICES=0 python train.py\
     --lr 1e-3\
     --batch_size 8\
     --shots 16\
-    --root_path /media/sdd/dataset/imagenet-1k/ILSVRC2012 \
-    --load_aux_weight \
+    --root_path 'you root path' \
+    --load_aux_weight 
 ```
 
 ## Result
